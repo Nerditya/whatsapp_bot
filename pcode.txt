@@ -1,0 +1,5 @@
+f=open('out.txt','w+')
+ 
+a=2**3
+f.write(str(a))
+f.close()
