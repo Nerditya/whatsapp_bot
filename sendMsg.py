@@ -7,8 +7,8 @@ import meme
 import game
 file=open("a.txt","r")
 f=file.read()
-sid='ACceddf11aaba027ef4c809baa8eb70293'
-authToken='9108404df31125203b5f95c3521c51fd'
+sid=''#fill after registering on twilo
+authToken=''
 client =Client(sid,authToken)
 
 debtlist={}
